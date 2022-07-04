@@ -1,29 +1,41 @@
-include<stdio.h>
+#include <stdio.h>
 
-#include<conio.h>
+/**
+ *
+ * *main - Display memory size of variables
+ *
+ * *
+ *
+ * *Return: Always 0 (Success)
+ *
+ * */
 
-
-
-void main()
+int main(void)
 
 {
 
-	clrscr();
+		char ch;
 
-	printf(“TypettttSize (bytes)”);
+			int in;
 
-	printf(“nCharacterttt    %d”,sizeof(char));
+				long lng;
 
-	printf(“nIntegertttt    %d”,sizeof(int));
+					long long lolng;
 
-	printf(“nLong intttt    %d”,sizeof(long int));
+						float flt;
 
-	printf(“nFloattttt    %d”,sizeof(float));
 
-	printf(“nDoubletttt    %d”,sizeof(double));
 
-	printf(“nLong doublettt    %d”,sizeof(long double));
+							printf("Size of a char: %lu byte(s)\n", sizeof(ch));
 
-	getch();
+								printf("Size of an int: %lu byte(s)\n", sizeof(in));
+
+									printf("Size of a long int: %lu byte(s)\n", sizeof(lng));
+
+										printf("Size of a long long int: %lu byte(s)\n", sizeof(lolng));
+
+											printf("Size of a float: %lu byte(s)\n", sizeof(flt));
+
+												return (0);
 
 }
