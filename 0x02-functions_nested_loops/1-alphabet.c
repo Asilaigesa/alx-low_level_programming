@@ -2,34 +2,32 @@
 
 /**
  *
- * *main - Begin here
+ * *print_alphabet - Begin Here
  *
- * *
+ * *print a-z and A-Z using putchar
  *
- * *Return: Value of 0 success
+ * *Return: Value 0 (true)
  *
  * **/
 
-int main(void)
+void print_alphabet(void)
 
 {
 
-		char text[] = "_putchar";
-
-			int i;
+		char ch = 'a';
 
 
 
-				for (i = 0; i < 8; i++)
+			while (ch <= 'z')
 
-						{
+					{
 
-									_putchar(text[i]);
+								_putchar(ch);
 
-										}
+										ch++;
 
-					_putchar('\n');
+											}
 
-						return (0);
+				_putchar('\n');
 
 }
