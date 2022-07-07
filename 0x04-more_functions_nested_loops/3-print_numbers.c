@@ -1,23 +1,29 @@
-#include "main.h"
-#include "string.h"
+#include <stdio.h> 
 
+ 
 
-/**
- *
- *  * main - check the code
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+int main() 
 
-int main(void)
+{ 
 
-{
+	    const char * words[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"}; 
 
-	    print_numbers();
+	         
 
-	        return (0);
+	        int i; 
+
+		     
+
+		    for(i=1; i<=9; i++) 
+
+			        { 
+
+					        printf("%s\n", words[i]); 
+
+						    } 
+
+		     
+
+		        return 0; 
 
 }
