@@ -1,29 +1,29 @@
-#include <stdio.h> 
+#include "main.h"
 
- 
+/**
+ *
+ * * print_numbers - print number 0-9
+ *
+ * * Return: void
+ *
+ * */
 
-int main() 
+void print_numbers(void)
 
-{ 
+{
 
-	    const char * words[] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"}; 
+		int i;
 
-	         
 
-	        int i; 
 
-		     
+			for (i = 0; i <= 9; i++)
 
-		    for(i=1; i<=9; i++) 
+					{
 
-			        { 
+								_putchar(i + '0');
 
-					        printf("%s\n", words[i]); 
+									}
 
-						    } 
-
-		     
-
-		        return 0; 
+				_putchar('\n');
 
 }

@@ -1,35 +1,35 @@
 #include "main.h"
 
-#include <stdio.h>
-
-
-
 /**
  *
- *  * main - check the code
+ * * _isdigit - Check if a digit 0-9
  *
- *   *
+ * * @c: number in ASCII
  *
- *    * Return: Always 0.
+ * * Return: value 1 if a digit, else 0
  *
- *     */
+ * */
 
-int main(void)
+int _isdigit(int c)
+
+
 
 {
 
-	    char c;
+		if (c >= '0' && c <= '9')
 
+				{
 
+							return (1);
 
-	        c = '0';
+								}
 
-		    printf("%c: %d\n", c, _isdigit(c));
+			else
 
-		        c = 'a';
+					{
 
-			    printf("%c: %d\n", c, _isdigit(c));
+								return (0);
 
-			        return (0);
+									}
 
 }
